@@ -3,6 +3,7 @@ import Navbar from "./Navbar"
 import Login from "./Login"
 import Profile from "./Profile"
 import Body from "./Body"
+import SignUp from "./SignUp"
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
           <Route path="/" element={<Body />}>
             <Route path="/login" element={<Login />}> </Route>
             <Route path="/profile" element={<Profile />}></Route>
+            <Route path="/signup" element={<SignUp />}></Route>
           </Route>
         </Routes>
 
